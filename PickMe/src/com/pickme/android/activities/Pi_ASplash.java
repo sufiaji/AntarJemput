@@ -6,11 +6,16 @@ import android.app.Activity;
 import android.view.Menu;
 
 public class Pi_ASplash extends Activity {
+	
+	private boolean _init = false;
+	private boolean _flag = true;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.pi_lay_asplash);
+		_init = true;
+		_flag = false;
 	}
 
 	@Override
