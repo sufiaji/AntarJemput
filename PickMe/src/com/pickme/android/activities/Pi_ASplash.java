@@ -11,6 +11,8 @@ public class Pi_ASplash extends Activity {
 	private boolean _flag = true;
 	// try 3rd commit
 	private boolean _init3 = false;
+	// try 4th commit
+	private boolean _init4 = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,8 @@ public class Pi_ASplash extends Activity {
 		_flag = false;
 		// 3rd commit
 		_init3 = true;
+		// 4th commit
+		_init4 = true;
 	}
 
 	@Override
