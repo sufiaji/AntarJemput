@@ -9,6 +9,8 @@ public class Pi_ASplash extends Activity {
 	
 	private boolean _init = false;
 	private boolean _flag = true;
+	// try 3rd commit
+	private boolean _init3 = false;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +18,8 @@ public class Pi_ASplash extends Activity {
 		setContentView(R.layout.pi_lay_asplash);
 		_init = true;
 		_flag = false;
+		// 3rd commit
+		_init3 = true;
 	}
 
 	@Override
